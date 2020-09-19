@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.back{
+  background: url(bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.back1{
+  background-color: hsl(0, 0%, 98%);;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 8rem;
+  
+}
+footer a{
+  color: black;
+}
+footer a:hover{
+  color:  hsl(171, 66%, 44%);
+}
+
+.button2{
+  box-shadow: 4px 4px 13px 0rem hsl(233, 100%, 69%);
+}
+.button1{
+  box-shadow: 4px 4px 13px 0rem hsl(171, 66%, 44%);
+}
+.button2:hover{
+  box-shadow: 6px 6px 20px 0rem hsl(233, 100%, 69%);
+}
+.button1:hover{
+  box-shadow: 6px 6px 20px 0rem hsl(171, 66%, 44%);
+}
+.img1{
+  margin-left: -190px;
+}
+.margin{
+  margin-left: 0px;
+}
+@media screen and (max-width:767px){
+  .img1{
+    margin-left: auto;
+  }
+  .back{
+    background-image: url(bg-header-mobile.png);
+
+  }
+
+ 
+}
+
